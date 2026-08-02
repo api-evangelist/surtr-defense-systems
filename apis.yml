@@ -1,23 +1,84 @@
 aid: surtr-defense-systems
 name: Surtr Defense Systems
-description: Surtr Defense Systems is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Surtr Defense Systems is a Y Combinator-backed defense technology company building ParallaxOS,
+  an open operating system for counter-UAS (counter-drone) command-and-control. Surtr positions
+  itself outside the incumbent C2 tension by not competing with hardware partners on contracts and
+  not monetizing partner data: hardware partners decide what data the platform sees, customers decide
+  what data is kept, and every byte is visible to partners and customers in real time. ParallaxOS
+  ingests any sensor (radar, RF, EO/IR, acoustic) over open defense-interoperability standards such
+  as NATO SAPIENT, Link 16, Cursor on Target, and ATAK; tasks any compatible kinetic, EW, or
+  directed-energy effector with human-in-the-loop authorization on every engagement; and performs
+  multi-sensor fusion, autonomous track correlation, and AI threat classification at millisecond
+  latency on the tactical edge. Customer data, integration code, and decisions remain the customer's,
+  deployed on-prem or in GovCloud. Founded by Anshul Ahluwalia (CEO, ex-Shield AI) and Cameron Fiore
+  (CTO, ex-Anduril, ex-Shield AI). Added to the API Evangelist network as a portfolio lead; no public
+  developer API surface is published as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/surtr-defense-systems/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://surtrdefense.com/logo-white.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-product:
+  name: ParallaxOS
+  summary: Open operating system for counter-UAS command-and-control (C2), data fusion, and AI decisioning.
+  deployment:
+  - on-prem
+  - govcloud
+x-founders:
+- name: Anshul Ahluwalia
+  role: Co-founder & CEO
+  previously: Shield AI
+  linkedin: https://www.linkedin.com/in/anshul-ahluwalia-17658264/
+- name: Cameron Fiore
+  role: Co-founder & CTO
+  previously: Anduril Industries, Shield AI
+  linkedin: https://www.linkedin.com/in/camfiore/
+x-interoperability-standards:
+- NATO SAPIENT
+- Link 16
+- Cursor on Target (CoT)
+- ATAK
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Defense
+- Defense Technology
+- Counter-UAS
+- Command and Control
+- Interoperability
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://surtrdefense.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/112736097/
+- type: X
+  url: https://x.com/surtrdefense
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
