@@ -15,6 +15,17 @@ description: >-
   (CTO, ex-Anduril, ex-Shield AI). Added to the API Evangelist network as a portfolio lead; no public
   developer API surface is published as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/surtr-defense-systems/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
