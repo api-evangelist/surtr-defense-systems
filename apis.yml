@@ -66,7 +66,7 @@ x-interoperability-standards:
 - ATAK
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Defense
@@ -77,6 +77,8 @@ tags:
 - Y Combinator
 apis: []
 common:
+- url: https://surtrdefense.com/blog/
+  type: Blog
 - type: Website
   url: https://surtrdefense.com
 - type: LinkedIn
